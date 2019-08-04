@@ -638,6 +638,9 @@ MonoBehaviour:
   maxPos: 2
   ui: {fileID: 1283334034}
   am: {fileID: 109240347}
+  powerTime: 5.5
+  car: {fileID: 21300000, guid: edd3f22753c76174eb5bd675a99fa919, type: 3}
+  powerCar: {fileID: 21300000, guid: 249bebc9b97a2cb4e92c8cd0b481dddb, type: 3}
 --- !u!61 &436709205
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1064,7 +1067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21bc779304118c4ab6a851bc2ede322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 0.45
 --- !u!64 &984017563
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1640,6 +1643,7 @@ MonoBehaviour:
   - {fileID: 6154742807349998408, guid: d30d76dd26303424c9a074a6f2138b0a, type: 3}
   - {fileID: 1891594106011961748, guid: 5ab5f3fdb71084b4690e6d317490a11f, type: 3}
   - {fileID: 1383337163304428096, guid: 7bf5d4c5b9a866640b5748544da8484d, type: 3}
+  - {fileID: 9105427307068542805, guid: da9d6d6afbae59e4bbd09d1083676f39, type: 3}
   delayTimer: 1
   positions:
   - -1.96

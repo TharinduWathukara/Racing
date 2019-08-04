@@ -22,5 +22,10 @@ public class enemyDestroyer : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+
+        if (collision.gameObject.tag == "Power")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
